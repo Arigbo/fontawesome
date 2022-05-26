@@ -1,0 +1,38 @@
+.first_box {
+background-color: yellow;
+line-height: 403%;
+}
+ul {
+    list-style: none;
+    width: 100;
+}
+li {
+    font-size:200%;
+    margin: 0px 100px 0px 100px;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-linkedin {
+    color: blue;
+}
+.fa-youtube {
+    color: red;
+}
+.lower_box {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 148, 105);
+}
+.fa-twitter{
+color:skyblue ;
+}
+.fa-pinterest{
+color: darkred;
+}
+.fa-instagram{
+color: red;
+fill-opacity: pink;}
+.fa-whatsapp{
+
+}
