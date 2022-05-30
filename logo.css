@@ -21,48 +21,43 @@ body .header ul {
   list-style: none;
 }
 
-body .header ul li {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body .header ul .nav_link {
+  display: block;
 }
 
-body .header ul li a {
+body .header ul .fa-solid {
+  display: none;
+}
+
+body .header ul a {
   margin: 0px 100px 0px 100px;
   text-decoration: none;
   font-size: larger;
 }
 
-body .header p {
+body p {
   margin-left: 10px;
 }
 
-body .header p .name {
+body p .name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-body .header p .name span {
+body p .name span {
   font-size: 39px;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 790px) {
   body {
-    background-color: antiquewhite;
-    color: black;
+    background-color: aliceblue;
+  }
+  body .fa-solid {
+    display: block;
+  }
+  body .nav_link {
+    display: none;
   }
 }
 /*# sourceMappingURL=logo.css.map */
